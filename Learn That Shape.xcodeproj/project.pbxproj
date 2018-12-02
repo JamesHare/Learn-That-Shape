@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98B1B69521B3B9D600A0E58A /* Triangle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98B1B68F21B3B9D600A0E58A /* Triangle.wav */; };
+		98B1B69621B3B9D600A0E58A /* Circle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98B1B69021B3B9D600A0E58A /* Circle.wav */; };
+		98B1B69721B3B9D600A0E58A /* Heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98B1B69121B3B9D600A0E58A /* Heart.wav */; };
+		98B1B69821B3B9D600A0E58A /* Rectangle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98B1B69221B3B9D600A0E58A /* Rectangle.wav */; };
+		98B1B69921B3B9D600A0E58A /* Square.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98B1B69321B3B9D600A0E58A /* Square.wav */; };
+		98B1B69A21B3B9D600A0E58A /* Star.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98B1B69421B3B9D600A0E58A /* Star.wav */; };
 		98BEFDF821B3A0810051B462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEFDF721B3A0810051B462 /* AppDelegate.swift */; };
 		98BEFDFA21B3A0810051B462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEFDF921B3A0810051B462 /* ViewController.swift */; };
 		98BEFDFD21B3A0810051B462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BEFDFB21B3A0810051B462 /* Main.storyboard */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98B1B68F21B3B9D600A0E58A /* Triangle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Triangle.wav; sourceTree = "<group>"; };
+		98B1B69021B3B9D600A0E58A /* Circle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Circle.wav; sourceTree = "<group>"; };
+		98B1B69121B3B9D600A0E58A /* Heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Heart.wav; sourceTree = "<group>"; };
+		98B1B69221B3B9D600A0E58A /* Rectangle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rectangle.wav; sourceTree = "<group>"; };
+		98B1B69321B3B9D600A0E58A /* Square.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Square.wav; sourceTree = "<group>"; };
+		98B1B69421B3B9D600A0E58A /* Star.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Star.wav; sourceTree = "<group>"; };
 		98BEFDF421B3A0810051B462 /* Learn That Shape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn That Shape.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98BEFDF721B3A0810051B462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98BEFDF921B3A0810051B462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +86,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9843176721B3B74D00682042 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98B1B69021B3B9D600A0E58A /* Circle.wav */,
+				98B1B69121B3B9D600A0E58A /* Heart.wav */,
+				98B1B69221B3B9D600A0E58A /* Rectangle.wav */,
+				98B1B69321B3B9D600A0E58A /* Square.wav */,
+				98B1B69421B3B9D600A0E58A /* Star.wav */,
+				98B1B68F21B3B9D600A0E58A /* Triangle.wav */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		98BEFDEB21B3A0810051B462 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +122,7 @@
 		98BEFDF621B3A0810051B462 /* Learn That Shape */ = {
 			isa = PBXGroup;
 			children = (
+				9843176721B3B74D00682042 /* Supporting Files */,
 				98BEFDF721B3A0810051B462 /* AppDelegate.swift */,
 				98BEFDF921B3A0810051B462 /* ViewController.swift */,
 				98BEFDFB21B3A0810051B462 /* Main.storyboard */,
@@ -230,8 +256,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				98BEFE0221B3A0820051B462 /* LaunchScreen.storyboard in Resources */,
+				98B1B69621B3B9D600A0E58A /* Circle.wav in Resources */,
 				98BEFDFF21B3A0820051B462 /* Assets.xcassets in Resources */,
+				98B1B69821B3B9D600A0E58A /* Rectangle.wav in Resources */,
+				98B1B69A21B3B9D600A0E58A /* Star.wav in Resources */,
+				98B1B69721B3B9D600A0E58A /* Heart.wav in Resources */,
+				98B1B69521B3B9D600A0E58A /* Triangle.wav in Resources */,
 				98BEFDFD21B3A0810051B462 /* Main.storyboard in Resources */,
+				98B1B69921B3B9D600A0E58A /* Square.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
